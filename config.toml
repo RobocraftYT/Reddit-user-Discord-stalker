@@ -1,0 +1,13 @@
+[credentials]
+reddit_client_id = "<your reddit client id"
+reddit_client_secret = "<your reddit client secret>"
+reddit_user_agent = "<your reddit user agent from the --create-app-name command>" # <user>.<app name> from the reddit bot
+
+[users]
+stalked-users = [
+  "<bare reddit user id (without the u/)>",
+]
+
+# You can add more webhooks by adding a new line with "<webhook url>" = "message"
+[webhooks]
+"<your webhook url>" = "u/{author} just posted! ||@everyone||\n\n[{title}](<{url}>)\n{selftext}"
