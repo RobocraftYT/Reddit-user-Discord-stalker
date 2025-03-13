@@ -13,7 +13,7 @@ if sys.version_info >= (3, 11):
 else:
     import tomli as tomllib
 
-script_version_number = "dev-0.1"
+script_version_number = "1.1"
 
 with open("config.toml", "rb") as config_file:
     configuration = tomllib.load(config_file)
